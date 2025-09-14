@@ -1,5 +1,9 @@
 # React + TypeScript + Vite
 
+<!-- to push -->
+
+<!-- git push -u https://mppatrick12@github.com/mppatrick12/FinovatrAI.git main -->
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
