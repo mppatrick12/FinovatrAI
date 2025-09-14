@@ -1,5 +1,4 @@
 // pages/TechAdvisor.tsx
-import React from "react";
 
 export default function TechAdvisor() {
   const techRecommendations = [
