@@ -27,7 +27,7 @@ interface SeasonalTrend {
 
 export default function InventoryEngine() {
   const [selectedItem, setSelectedItem] = useState<number>(1);
-  const [timeframe, setTimeframe] = useState<'weekly' | 'monthly' | 'quarterly'>('monthly');
+  // const [timeframe, setTimeframe] = useState<'weekly' | 'monthly' | 'quarterly'>('monthly');
 
   const inventoryItems: InventoryItem[] = [
     {

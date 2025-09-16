@@ -1,19 +1,17 @@
 // pages/LoanEngine.tsx
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import {
-  BarChart,
-  Bar,
-  LineChart,
-  Line,
-  PieChart,
-  Pie,
-  Cell,
   CartesianGrid,
-  XAxis,
-  YAxis,
-  Tooltip,
+  Cell,
+  Legend,
+  Line,
+  LineChart,
+  Pie,
+  PieChart,
   ResponsiveContainer,
-  Legend
+  Tooltip,
+  XAxis,
+  YAxis
 } from "recharts";
 
 // Define types
@@ -154,7 +152,7 @@ export default function LoanEngine() {
     const n = loan.term;
     
     const monthlyPayment = (P * r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
-    const disposableIncome = businessData.monthlyRevenue - businessData.monthlyExpenses;
+    // const disposableIncome = businessData.monthlyRevenue - businessData.monthlyExpenses;
     
     // Generate repayment schedule
     const schedule: RepaymentSchedule[] = [];
@@ -351,9 +349,9 @@ export default function LoanEngine() {
                         outerRadius={80}
                         fill="#8884d8"
                         dataKey="value"
-                        label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(0)}%`}
+                        label={({ name, percent }) => `${name}: ${((percent ?? 0) * 100).toFixed(0)}%`}
                       >
-                        {loanUsageData.map((entry, index) => (
+                        {loanUsageData.map((_, index) => (
                           <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                         ))}
                       </Pie>
