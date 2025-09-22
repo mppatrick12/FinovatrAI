@@ -213,7 +213,7 @@ export default function Inventory() {
               {/* Search and Filter */}
               <div className="flex flex-col sm:flex-row gap-4 flex-1">
                 <div className="relative flex-1">
-                  <SearchIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
+                 <SearchIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400 w-5 h-5" />
                   <Input
                     placeholder="Search products, categories, or suppliers..."
                     value={searchTerm}
@@ -222,7 +222,7 @@ export default function Inventory() {
                   />
                 </div>
                 <div className="relative">
-                  <FilterIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
+                 <FilterIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400 w-5 h-5" />
                   <select
                     value={selectedCategory}
                     onChange={(e) => setSelectedCategory(e.target.value)}
