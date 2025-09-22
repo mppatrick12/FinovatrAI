@@ -23,6 +23,80 @@ interface TechRecommendation {
   estimatedRoiPercentage: number;
 }
 
+// SVG Icons
+const WaterDropIcon = () => (
+  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7.75 21.02c4.72 0 8.54-3.82 8.54-8.54 0-2.36-2.26-5.72-3.61-7.52-1.01-1.35-2.86-1.35-3.87 0-1.35 1.8-3.61 5.16-3.61 7.52 0 4.72 3.82 8.54 8.55 8.54z" />
+  </svg>
+);
+
+const SensorIcon = () => (
+  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+  </svg>
+);
+
+const StorageIcon = () => (
+  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+  </svg>
+);
+
+const MobileIcon = () => (
+  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+  </svg>
+);
+
+const MoneyIcon = () => (
+  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>
+);
+
+const TrendUpIcon = () => (
+  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+  </svg>
+);
+
+const ClockIcon = () => (
+  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>
+);
+
+const SettingsIcon = () => (
+  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+  </svg>
+);
+
+const CheckCircleIcon = () => (
+  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>
+);
+
+const ExclamationIcon = () => (
+  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.732-.833-2.502 0L4.312 16.5c-.77.833.192 2.5 1.732 2.5z" />
+  </svg>
+);
+
+const ChevronDownIcon = () => (
+  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+  </svg>
+);
+
+const ChevronUpIcon = () => (
+  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+  </svg>
+);
+
 export default function TechAdvisor() {
   const [expandedCard, setExpandedCard] = useState<number | null>(null);
   const [loanPercentages, setLoanPercentages] = useState<{[key: number]: number}>({});
@@ -245,273 +319,392 @@ export default function TechAdvisor() {
     }).format(amount);
   };
 
-  return (
-    <div className="max-w-6xl mx-auto p-6">
-      <div className="text-center mb-10">
-        <h1 className="text-3xl font-bold text-gray-800 mb-2">AgriTech Advisor</h1>
-        <p className="text-gray-600">
-          Intelligent technology recommendations with detailed financial analysis for your agricultural business
-        </p>
-      </div>
+  // Get appropriate icon for each technology
+  const getTechIcon = (id: number) => {
+    switch(id) {
+      case 1: return <WaterDropIcon />;
+      case 2: return <SensorIcon />;
+      case 3: return <StorageIcon />;
+      case 4: return <MobileIcon />;
+      default: return <SettingsIcon />;
+    }
+  };
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {agriTechRecommendations.map((tech) => {
-          const loanPercentage = loanPercentages[tech.id] || 50;
-          const loanTerm = loanTerms[tech.id] || 12;
-          const repaymentFrequency = repaymentFrequencies[tech.id] || 'monthly';
-          const financing = calculateOptimalFinancing(tech.id, loanPercentage, loanTerm, repaymentFrequency);
-          
-          return (
-            <div
-              key={tech.id}
-              className={`bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 transition-all duration-300 ${
-                expandedCard === tech.id ? 'ring-2 ring-green-500 shadow-xl' : 'hover:shadow-lg'
-              }`}
-            >
-              {/* Image Section */}
-              <div className="relative h-48 w-full overflow-hidden">
-                <img
-                  src={tech.image}
-                  alt={tech.name}
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute top-4 right-4">
-                  <span className={`px-3 py-1 rounded-full text-xs font-medium ${
-                    tech.implementationComplexity === 'Low' ? 'bg-green-100 text-green-800' :
-                    tech.implementationComplexity === 'Medium' ? 'bg-yellow-100 text-yellow-800' :
-                    'bg-red-100 text-red-800'
-                  }`}>
-                    {tech.implementationComplexity} Implementation
-                  </span>
-                </div>
-              </div>
-              
-              <div className="p-6">
-                <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-xl font-semibold text-gray-800">
-                    {tech.name}
-                  </h3>
-                  <button 
-                    onClick={() => toggleExpand(tech.id)}
-                    className="text-green-600 hover:text-green-800 text-sm font-medium"
-                  >
-                    {expandedCard === tech.id ? 'Show Less' : 'Show Details'}
-                  </button>
-                </div>
-                
-                <p className="text-gray-600 mb-4">{tech.description}</p>
-                
-                <div className="grid grid-cols-2 gap-4 mb-4">
-                  <div className="bg-blue-50 p-3 rounded-md">
-                    <p className="text-xs text-blue-700 font-medium">Investment Range</p>
-                    <p className="text-sm font-semibold">{tech.costRange}</p>
-                  </div>
-                  <div className="bg-green-50 p-3 rounded-md">
-                    <p className="text-xs text-green-700 font-medium">Profit Increase</p>
-                    <p className="text-sm font-semibold">{tech.estimatedProfitIncrease}</p>
-                  </div>
-                </div>
-                
-                {expandedCard === tech.id && (
-                  <div className="mt-6 space-y-6 border-t pt-6">
-                    {/* Financial Analysis */}
-                    <div>
-                      <h4 className="font-medium text-gray-900 mb-3">Financial Analysis</h4>
-                      <div className="grid grid-cols-2 gap-4 mb-4">
-                        <div className="bg-gray-50 p-3 rounded-md">
-                          <p className="text-xs text-gray-700 font-medium">ROI Timeframe</p>
-                          <p className="text-sm font-semibold">{tech.roiTimeframe}</p>
-                        </div>
-                        <div className="bg-gray-50 p-3 rounded-md">
-                          <p className="text-xs text-gray-700 font-medium">Maintenance Cost</p>
-                          <p className="text-sm font-semibold">{tech.maintenanceCost}</p>
-                        </div>
-                      </div>
-                      
-                      <div className="mb-4">
-                        <p className="text-sm text-gray-700 mb-2">
-                          <span className="font-medium">Impact:</span> {tech.impact}
-                        </p>
-                      </div>
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
+      <div className="max-w-7xl mx-auto p-6">
+        {/* Header Section */}
+        <div className="text-center mb-12">
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mb-6 shadow-lg text-white">
+            <SettingsIcon />
+          </div>
+          <h1 className="text-4xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent mb-4">
+            AgriTech Intelligence Hub
+          </h1>
+          <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
+            AI-powered technology recommendations with comprehensive financial analysis tailored for your agricultural business
+          </p>
+          <div className="flex items-center justify-center mt-6 space-x-6 text-sm">
+            <div className="flex items-center text-emerald-600">
+              <CheckCircleIcon />
+              <span className="ml-2 font-medium">Smart Analysis</span>
+            </div>
+            <div className="flex items-center text-blue-600">
+              <TrendUpIcon />
+              <span className="ml-2 font-medium">ROI Optimization</span>
+            </div>
+            <div className="flex items-center text-purple-600">
+              <ClockIcon />
+              <span className="ml-2 font-medium">Real-time Updates</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Technology Cards Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+          {agriTechRecommendations.map((tech) => {
+            const loanPercentage = loanPercentages[tech.id] || 50;
+            const loanTerm = loanTerms[tech.id] || 12;
+            const repaymentFrequency = repaymentFrequencies[tech.id] || 'monthly';
+            const financing = calculateOptimalFinancing(tech.id, loanPercentage, loanTerm, repaymentFrequency);
+            
+            return (
+              <div
+                key={tech.id}
+                className={`bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-200 transition-all duration-500 hover:shadow-2xl ${
+                  expandedCard === tech.id ? 'ring-2 ring-blue-500 shadow-2xl transform scale-[1.02]' : 'hover:shadow-xl hover:-translate-y-1'
+                }`}
+              >
+                {/* Image Section with Overlay */}
+                <div className="relative h-56 w-full overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent z-10"></div>
+                  <img
+                    src={tech.image}
+                    alt={tech.name}
+                    className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
+                  />
+                  
+                  {/* Technology Icon */}
+                  <div className="absolute top-4 left-4 z-20">
+                    <div className="w-12 h-12 bg-white/90 backdrop-blur-sm rounded-xl flex items-center justify-center text-blue-600 shadow-lg">
+                      {getTechIcon(tech.id)}
                     </div>
-                    
-                    {/* Enhanced Loan Calculator */}
-                    <div>
-                      <h4 className="font-medium text-gray-900 mb-3">Financing Strategy</h4>
-                      <div className="mb-4 p-4 bg-blue-50 rounded-lg">
-                        <p className="text-sm text-blue-800">
-                          <span className="font-semibold">Recommended Strategy:</span> We suggest using a combination of 
-                          loan financing and ROI funds for optimal financial health.
-                        </p>
+                  </div>
+                  
+                  {/* Complexity Badge */}
+                  <div className="absolute top-4 right-4 z-20">
+                    <span className={`px-3 py-1.5 rounded-full text-xs font-semibold backdrop-blur-sm ${
+                      tech.implementationComplexity === 'Low' ? 'bg-emerald-100/90 text-emerald-800 border border-emerald-200' :
+                      tech.implementationComplexity === 'Medium' ? 'bg-amber-100/90 text-amber-800 border border-amber-200' :
+                      'bg-red-100/90 text-red-800 border border-red-200'
+                    }`}>
+                      {tech.implementationComplexity} Implementation
+                    </span>
+                  </div>
+                  
+                  {/* ROI Badge */}
+                  <div className="absolute bottom-4 left-4 z-20">
+                    <div className="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-3 py-1.5 rounded-lg text-sm font-semibold shadow-lg">
+                      {tech.estimatedRoiPercentage}% ROI
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="p-6">
+                  {/* Header with Expand Button */}
+                  <div className="flex justify-between items-start mb-4">
+                    <h3 className="text-xl font-bold text-slate-800 leading-tight">
+                      {tech.name}
+                    </h3>
+                    <button 
+                      onClick={() => toggleExpand(tech.id)}
+                      className="flex items-center space-x-2 text-blue-600 hover:text-blue-700 bg-blue-50 hover:bg-blue-100 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200"
+                    >
+                      <span>{expandedCard === tech.id ? 'Show Less' : 'Show Details'}</span>
+                      {expandedCard === tech.id ? <ChevronUpIcon /> : <ChevronDownIcon />}
+                    </button>
+                  </div>
+                  
+                  <p className="text-slate-600 mb-6 leading-relaxed">{tech.description}</p>
+                  
+                  {/* Key Metrics Grid */}
+                  <div className="grid grid-cols-2 gap-4 mb-6">
+                    <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-4 rounded-xl border border-blue-200">
+                      <div className="flex items-center text-blue-600 mb-2">
+                        <MoneyIcon />
+                        <p className="text-xs font-semibold ml-2 uppercase tracking-wide">Investment Range</p>
                       </div>
-                      
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-                        <div>
-                          <label className="block text-sm font-medium text-gray-700 mb-1">
-                            Loan Percentage (% of total cost)
-                          </label>
-                          <div className="flex items-center">
-                            <input
-                              type="range"
-                              value={loanPercentage}
-                              onChange={(e) => handleLoanPercentageChange(tech.id, e.target.value)}
-                              className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
-                              min="0"
-                              max="100"
-                            />
-                            <span className="ml-3 text-sm font-medium w-12">
-                              {loanPercentage}%
-                            </span>
+                      <p className="text-lg font-bold text-slate-800">{tech.costRange}</p>
+                    </div>
+                    <div className="bg-gradient-to-br from-emerald-50 to-emerald-100 p-4 rounded-xl border border-emerald-200">
+                      <div className="flex items-center text-emerald-600 mb-2">
+                        <TrendUpIcon />
+                        <p className="text-xs font-semibold ml-2 uppercase tracking-wide">Profit Increase</p>
+                      </div>
+                      <p className="text-lg font-bold text-slate-800">{tech.estimatedProfitIncrease}</p>
+                    </div>
+                  </div>
+
+                  {/* Expanded Details Section */}
+                  {expandedCard === tech.id && (
+                    <div className="mt-8 space-y-8 border-t border-slate-200 pt-8">
+                      {/* Financial Analysis */}
+                      <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-6 rounded-xl border border-slate-200">
+                        <h4 className="flex items-center text-lg font-bold text-slate-800 mb-4">
+                          <MoneyIcon />
+                          <span className="ml-2">Financial Analysis</span>
+                        </h4>
+                        <div className="grid grid-cols-2 gap-4 mb-6">
+                          <div className="bg-white p-4 rounded-lg shadow-sm border border-slate-200">
+                            <div className="flex items-center text-slate-600 mb-2">
+                              <ClockIcon />
+                              <p className="text-xs font-semibold ml-2 uppercase tracking-wide">ROI Timeframe</p>
+                            </div>
+                            <p className="text-base font-bold text-slate-800">{tech.roiTimeframe}</p>
+                          </div>
+                          <div className="bg-white p-4 rounded-lg shadow-sm border border-slate-200">
+                            <div className="flex items-center text-slate-600 mb-2">
+                              <SettingsIcon />
+                              <p className="text-xs font-semibold ml-2 uppercase tracking-wide">Maintenance Cost</p>
+                            </div>
+                            <p className="text-base font-bold text-slate-800">{tech.maintenanceCost}</p>
                           </div>
                         </div>
                         
-                        <div>
-                          <label className="block text-sm font-medium text-gray-700 mb-1">Loan Term (months)</label>
-                          <input
-                            type="number"
-                            value={loanTerm}
-                            onChange={(e) => handleLoanTermChange(tech.id, e.target.value)}
-                            className="w-full p-2 border border-gray-300 rounded-md"
-                            min="1"
-                          />
+                        <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-4 rounded-lg text-white mb-4">
+                          <p className="text-sm leading-relaxed">
+                            <span className="font-semibold">Impact:</span> {tech.impact}
+                          </p>
                         </div>
                       </div>
                       
-                      <div className="mb-4">
-                        <label className="block text-sm font-medium text-gray-700 mb-2">Repayment Frequency</label>
-                        <div className="flex space-x-4">
-                          {(['weekly', 'monthly', 'quarterly'] as const).map(freq => (
-                            <button
-                              key={freq}
-                              onClick={() => handleRepaymentFrequencyChange(tech.id, freq)}
-                              className={`px-4 py-2 rounded-md text-sm ${
-                                repaymentFrequency === freq 
-                                  ? 'bg-green-600 text-white' 
-                                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                              }`}
-                            >
-                              {freq.charAt(0).toUpperCase() + freq.slice(1)}
-                            </button>
+                      {/* Enhanced Loan Calculator */}
+                      <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                        <h4 className="flex items-center text-lg font-bold text-slate-800 mb-4">
+                          <TrendUpIcon />
+                          <span className="ml-2">Smart Financing Strategy</span>
+                        </h4>
+                        <div className="mb-6 p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg border border-blue-200">
+                          <p className="text-sm text-blue-800 leading-relaxed">
+                            <span className="font-semibold">AI Recommendation:</span> Our intelligent system suggests an optimal 
+                            combination of loan financing and ROI reinvestment for maximum financial efficiency.
+                          </p>
+                        </div>
+                        
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                          <div>
+                            <label className="block text-sm font-semibold text-slate-700 mb-3">
+                              Loan Percentage (% of total cost)
+                            </label>
+                            <div className="flex items-center">
+                              <input
+                                type="range"
+                                value={loanPercentage}
+                                onChange={(e) => handleLoanPercentageChange(tech.id, e.target.value)}
+                                className="w-full h-3 bg-gradient-to-r from-blue-200 to-purple-200 rounded-lg appearance-none cursor-pointer slider"
+                                min="0"
+                                max="100"
+                              />
+                              <span className="ml-4 text-lg font-bold text-slate-800 w-16 text-center bg-slate-100 px-3 py-1 rounded-lg">
+                                {loanPercentage}%
+                              </span>
+                            </div>
+                          </div>
+                          
+                          <div>
+                            <label className="block text-sm font-semibold text-slate-700 mb-3">Loan Term (months)</label>
+                            <input
+                              type="number"
+                              value={loanTerm}
+                              onChange={(e) => handleLoanTermChange(tech.id, e.target.value)}
+                              className="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                              min="1"
+                            />
+                          </div>
+                        </div>
+                        
+                        <div className="mb-6">
+                          <label className="block text-sm font-semibold text-slate-700 mb-3">Repayment Frequency</label>
+                          <div className="flex space-x-3">
+                            {(['weekly', 'monthly', 'quarterly'] as const).map(freq => (
+                              <button
+                                key={freq}
+                                onClick={() => handleRepaymentFrequencyChange(tech.id, freq)}
+                                className={`px-4 py-3 rounded-xl text-sm font-medium transition-all duration-200 ${
+                                  repaymentFrequency === freq 
+                                    ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg transform scale-105' 
+                                    : 'bg-slate-100 text-slate-700 hover:bg-slate-200 hover:transform hover:scale-105'
+                                }`}
+                              >
+                                {freq.charAt(0).toUpperCase() + freq.slice(1)}
+                              </button>
+                            ))}
+                          </div>
+                        </div>
+                        
+                        {financing && (
+                          <div className="space-y-6">
+                            <div className="grid grid-cols-2 gap-4">
+                              <div className="bg-gradient-to-br from-emerald-50 to-emerald-100 p-4 rounded-xl border border-emerald-200">
+                                <p className="text-xs text-emerald-700 font-semibold uppercase tracking-wide mb-1">Total Investment</p>
+                                <p className="text-xl font-bold text-slate-800">{formatCurrency(financing.totalCost)}</p>
+                              </div>
+                              <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-4 rounded-xl border border-blue-200">
+                                <p className="text-xs text-blue-700 font-semibold uppercase tracking-wide mb-1">Loan Amount</p>
+                                <p className="text-xl font-bold text-slate-800">{formatCurrency(financing.loanAmount)}</p>
+                              </div>
+                            </div>
+                            
+                            <div className="grid grid-cols-2 gap-4">
+                              <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-4 rounded-xl border border-purple-200">
+                                <p className="text-xs text-purple-700 font-semibold uppercase tracking-wide mb-1">From ROI Funds</p>
+                                <p className="text-xl font-bold text-slate-800">{formatCurrency(financing.roiFundAmount)}</p>
+                              </div>
+                              <div className="bg-gradient-to-br from-amber-50 to-amber-100 p-4 rounded-xl border border-amber-200">
+                                <p className="text-xs text-amber-700 font-semibold uppercase tracking-wide mb-1">Interest Rate</p>
+                                <p className="text-xl font-bold text-slate-800">{financing.interestRate.toFixed(1)}%</p>
+                              </div>
+                            </div>
+                            
+                            <div className="bg-gradient-to-r from-slate-50 to-slate-100 p-6 rounded-xl border border-slate-200">
+                              <h5 className="text-lg font-bold text-slate-800 mb-4 flex items-center">
+                                <ClockIcon />
+                                <span className="ml-2">Repayment Plan</span>
+                              </h5>
+                              <div className="grid grid-cols-2 gap-4 mb-4">
+                                <div className="bg-white p-4 rounded-lg shadow-sm">
+                                  <p className="text-xs text-slate-600 font-medium uppercase tracking-wide mb-1">
+                                    {financing.paymentFrequency.charAt(0).toUpperCase() + financing.paymentFrequency.slice(1)} Payment
+                                  </p>
+                                  <p className="text-lg font-bold text-slate-800">{formatCurrency(financing.periodicPayment)}</p>
+                                </div>
+                                <div className="bg-white p-4 rounded-lg shadow-sm">
+                                  <p className="text-xs text-slate-600 font-medium uppercase tracking-wide mb-1">Total Interest</p>
+                                  <p className="text-lg font-bold text-slate-800">{formatCurrency(financing.totalInterest)}</p>
+                                </div>
+                              </div>
+                              
+                              <div className={`p-4 rounded-xl ${financing.canBeCoveredByRoi ? 'bg-gradient-to-r from-emerald-100 to-green-100 border border-emerald-200' : 'bg-gradient-to-r from-orange-100 to-amber-100 border border-orange-200'}`}>
+                                <div className="flex items-start">
+                                  {financing.canBeCoveredByRoi ? (
+                                    <CheckCircleIcon />
+                                  ) : (
+                                    <ExclamationIcon />
+                                  )}
+                                  <p className="text-sm font-medium ml-2">
+                                    {financing.canBeCoveredByRoi ? (
+                                      <span className="text-emerald-800">
+                                        Your estimated ROI of {formatCurrency(financing.roiContribution)} can comfortably cover your {financing.paymentFrequency} payments of {formatCurrency(financing.periodicPayment)}
+                                      </span>
+                                    ) : (
+                                      <span className="text-orange-800">
+                                        Your estimated ROI of {formatCurrency(financing.roiContribution)} may not fully cover your {financing.paymentFrequency} payments of {formatCurrency(financing.periodicPayment)}
+                                      </span>
+                                    )}
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-4 rounded-xl text-white">
+                              <p className="text-sm leading-relaxed">
+                                <span className="font-semibold">AI Insight:</span> Based on your financial profile and 
+                                {tech.estimatedRoiPercentage}% estimated ROI, this financing strategy optimizes your cash flow 
+                                while minimizing financial risk.
+                              </p>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                      
+                      {/* Funding Options */}
+                      <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                        <h4 className="flex items-center text-lg font-bold text-slate-800 mb-4">
+                          <MoneyIcon />
+                          <span className="ml-2">Available Funding Sources</span>
+                        </h4>
+                        <p className="text-purple-600 font-semibold text-base mb-4 bg-purple-50 p-3 rounded-lg border border-purple-200">{tech.funding}</p>
+                        <ul className="space-y-3">
+                          {tech.financingOptions.map((option, index) => (
+                            <li key={index} className="flex items-start bg-slate-50 p-3 rounded-lg">
+                              <CheckCircleIcon />
+                              <span className="ml-3 text-slate-700 leading-relaxed">{option}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                      
+                      {/* Suppliers */}
+                      <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                        <h4 className="flex items-center text-lg font-bold text-slate-800 mb-4">
+                          <SettingsIcon />
+                          <span className="ml-2">Verified Suppliers</span>
+                        </h4>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                          {tech.suppliers.map((supplier, index) => (
+                            <div key={index} className="bg-gradient-to-br from-slate-50 to-blue-50 p-4 rounded-xl border border-slate-200 hover:shadow-md transition-shadow duration-200">
+                              <p className="text-base font-bold text-slate-800 mb-2">{supplier.name}</p>
+                              <p className="text-sm text-slate-600 mb-1">{supplier.contact}</p>
+                              <a 
+                                href={`https://${supplier.website}`} 
+                                target="_blank" 
+                                rel="noopener noreferrer" 
+                                className="text-sm text-blue-600 hover:text-blue-800 font-medium hover:underline"
+                              >
+                                {supplier.website}
+                              </a>
+                            </div>
                           ))}
                         </div>
                       </div>
                       
-                      {financing && (
-                        <div className="space-y-4">
-                          <div className="grid grid-cols-2 gap-4">
-                            <div className="bg-green-50 p-3 rounded-md">
-                              <p className="text-xs text-green-700 font-medium">Total Investment</p>
-                              <p className="text-sm font-semibold">{formatCurrency(financing.totalCost)}</p>
-                            </div>
-                            <div className="bg-blue-50 p-3 rounded-md">
-                              <p className="text-xs text-blue-700 font-medium">Loan Amount</p>
-                              <p className="text-sm font-semibold">{formatCurrency(financing.loanAmount)}</p>
-                            </div>
-                          </div>
-                          
-                          <div className="grid grid-cols-2 gap-4">
-                            <div className="bg-purple-50 p-3 rounded-md">
-                              <p className="text-xs text-purple-700 font-medium">From ROI Funds</p>
-                              <p className="text-sm font-semibold">{formatCurrency(financing.roiFundAmount)}</p>
-                            </div>
-                            <div className="bg-yellow-50 p-3 rounded-md">
-                              <p className="text-xs text-yellow-700 font-medium">Interest Rate</p>
-                              <p className="text-sm font-semibold">{financing.interestRate.toFixed(1)}%</p>
-                            </div>
-                          </div>
-                          
-                          <div className="bg-gray-50 p-4 rounded-md">
-                            <h5 className="text-sm font-medium text-gray-900 mb-3">Repayment Plan</h5>
-                            <div className="grid grid-cols-2 gap-4 mb-3">
-                              <div>
-                                <p className="text-xs text-gray-700">{financing.paymentFrequency.charAt(0).toUpperCase() + financing.paymentFrequency.slice(1)} Payment</p>
-                                <p className="text-sm font-semibold">{formatCurrency(financing.periodicPayment)}</p>
-                              </div>
-                              <div>
-                                <p className="text-xs text-gray-700">Total Interest</p>
-                                <p className="text-sm font-semibold">{formatCurrency(financing.totalInterest)}</p>
-                              </div>
-                            </div>
-                            
-                            <div className={`p-3 rounded-md ${financing.canBeCoveredByRoi ? 'bg-green-100' : 'bg-orange-100'}`}>
-                              <p className="text-xs font-medium">
-                                {financing.canBeCoveredByRoi ? (
-                                  <span className="text-green-800">
-                                    ✅ Your estimated ROI of {formatCurrency(financing.roiContribution)} can cover your {financing.paymentFrequency} payments
-                                  </span>
-                                ) : (
-                                  <span className="text-orange-800">
-                                    ⚠️ Your estimated ROI of {formatCurrency(financing.roiContribution)} may not fully cover your {financing.paymentFrequency} payments
-                                  </span>
-                                )}
-                              </p>
-                            </div>
-                          </div>
-                          
-                          <div className="bg-blue-50 p-3 rounded-md">
-                            <p className="text-xs text-blue-700">
-                              <span className="font-medium">Note:</span> Based on your business's financial profile and 
-                              estimated ROI of {tech.estimatedRoiPercentage}%, we recommend this financing strategy to 
-                              minimize risk while maximizing returns.
-                            </p>
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                    
-                    {/* Funding Options */}
-                    <div>
-                      <h4 className="font-medium text-gray-900 mb-3">Funding Options</h4>
-                      <p className="text-purple-600 font-medium text-sm mb-2">{tech.funding}</p>
-                      <ul className="text-sm text-gray-700 space-y-2">
-                        {tech.financingOptions.map((option, index) => (
-                          <li key={index} className="flex items-start">
-                            <span className="text-purple-500 mr-2">•</span>
-                            <span>{option}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                    
-                    {/* Suppliers */}
-                    <div>
-                      <h4 className="font-medium text-gray-900 mb-3">Recommended Suppliers</h4>
-                      <div className="space-y-3">
-                        {tech.suppliers.map((supplier, index) => (
-                          <div key={index} className="bg-gray-50 p-3 rounded-md">
-                            <p className="text-sm font-medium">{supplier.name}</p>
-                            <p className="text-xs text-gray-600">{supplier.contact}</p>
-                            <a href={`https://${supplier.website}`} target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:underline">
-                              {supplier.website}
-                            </a>
-                          </div>
-                        ))}
+                      {/* Market Trend */}
+                      <div className="bg-gradient-to-r from-emerald-50 to-green-50 p-6 rounded-xl border border-emerald-200">
+                        <h4 className="flex items-center text-lg font-bold text-slate-800 mb-3">
+                          <TrendUpIcon />
+                          <span className="ml-2">Market Intelligence</span>
+                        </h4>
+                        <p className="text-slate-700 leading-relaxed">{tech.marketTrend}</p>
                       </div>
                     </div>
-                    
-                    {/* Market Trend */}
-                    <div className="bg-green-50 p-3 rounded-md">
-                      <h4 className="font-medium text-gray-900 mb-1 text-sm">Market Trend</h4>
-                      <p className="text-xs text-gray-700">{tech.marketTrend}</p>
-                    </div>
-                  </div>
-                )}
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        
+        {/* Information Section */}
+        <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-8 rounded-2xl text-white shadow-2xl">
+          <div className="flex items-center mb-6">
+            <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center mr-4">
+              <SettingsIcon />
+            </div>
+            <h3 className="text-2xl font-bold">How Our AI Technology Advisor Works</h3>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <p className="text-blue-100 mb-4 leading-relaxed">
+                Our intelligent system continuously analyzes your business's financial health, operational patterns, 
+                and market dynamics to recommend technologies that deliver the highest return on investment.
+              </p>
+              <div className="flex items-center text-blue-100">
+                <CheckCircleIcon />
+                <span className="ml-2 font-medium">Real-time market analysis</span>
               </div>
             </div>
-          );
-        })}
-      </div>
-      
-      <div className="mt-12 p-6 bg-blue-50 rounded-lg border border-blue-100">
-        <h3 className="text-xl font-semibold mb-4 text-gray-800">How Our Technology Advisor Works</h3>
-        <p className="text-gray-700 mb-3">
-          Our intelligent system analyzes your business's financial health, operational data, and market position
-          to recommend technologies that will deliver the highest return on investment for your specific situation.
-        </p>
-        <p className="text-gray-700">
-          As your business evolves, the recommendations will automatically update to reflect changes in your
-          operations, market conditions, and new technological developments in the agricultural sector.
-        </p>
+            <div>
+              <p className="text-blue-100 mb-4 leading-relaxed">
+                As your business evolves, our recommendations automatically adapt to reflect changes in your 
+                operations, financial capacity, and emerging agricultural technologies.
+              </p>
+              <div className="flex items-center text-blue-100">
+                <TrendUpIcon />
+                <span className="ml-2 font-medium">Adaptive recommendations</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
