@@ -100,7 +100,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
   return (
     <>
       {/* Desktop Sidebar */}
-      <aside className="hidden md:flex w-72 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-white flex-col fixed h-full z-30 shadow-2xl border-r border-slate-700">
+      <aside className="hidden md:flex w-64 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-white flex-col fixed h-full z-30 shadow-2xl border-r border-slate-700">
         {/* Logo Section */}
         <div className="p-6 border-b border-slate-700 bg-gradient-to-r from-blue-600 to-purple-600">
           <div className="flex items-center space-x-3">
@@ -158,15 +158,13 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
 
       {/* Mobile Sidebar Overlay */}
       <div
-        className={`md:hidden fixed inset-0 z-40 bg-black transition-all duration-300 ${
-          isOpen ? "bg-opacity-50 visible" : "bg-opacity-0 invisible"
-        }`}
+        className={`md:hidden fixed inset-0 z-50 bg-black transition-all duration-300 ${isOpen ? "bg-opacity-50 visible" : "bg-opacity-0 invisible"
+          }`}
         onClick={onClose}
       >
         <aside
-          className={`bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 w-72 h-full text-white transform transition-transform duration-300 ease-in-out shadow-2xl ${
-            isOpen ? "translate-x-0" : "-translate-x-full"
-          }`}
+          className={`bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 w-64 h-full text-white transform transition-transform duration-300 ease-in-out shadow-2xl ${isOpen ? "translate-x-0" : "-translate-x-full"
+            }`}
           onClick={(e) => e.stopPropagation()}
         >
           {/* Mobile Header */}
